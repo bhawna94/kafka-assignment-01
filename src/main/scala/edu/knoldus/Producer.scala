@@ -1,11 +1,13 @@
 package edu.knoldus
 
 
-  import java.util.Properties
+import java.util.Properties
 
-  import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
+import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
+import org.apache.log4j.Logger
 
   object Producer extends App {
+    val log = Logger.getLogger(this.getClass)
     val property = new Properties;
     val topic = "topic1"
 
@@ -18,6 +20,6 @@ package edu.knoldus
       val record = new ProducerRecord[String, Student](topic,"key",Student(id,student(id)))
       producer.send(record)
     }
-     println("message has been written")
+     log.info("message has been written")
     producer.close
   }

@@ -7,8 +7,20 @@
 		revision="0.1"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180307221243"/>
+		date="20180309223719"/>
 	<dependencies>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20120526151339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3670" time="0" location="/home/knoldus/.ivy2/cache/log4j/log4j/ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="default" name="kafka-assignment-1$sources" conf="compile-internal, compile, provided, optional" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="481200" time="0" location="/home/knoldus/.ivy2/cache/log4j/log4j/srcs/log4j-1.2.17-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.apache.kafka" name="kafka-clients">
 			<revision name="0.11.0.0" status="release" pubdate="20170623035350" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://kafka.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
@@ -22,7 +34,7 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="slf4j-api">
-			<revision name="1.7.25" status="release" pubdate="20170316220632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+			<revision name="1.7.25" status="release" pubdate="20170316220632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="5377" time="0" location="/home/knoldus/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
 				<caller organisation="default" name="kafka-assignment-1$sources" conf="compile-internal, compile, provided, optional" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1"/>
@@ -34,7 +46,7 @@
 			</revision>
 		</module>
 		<module organisation="org.xerial.snappy" name="snappy-java">
-			<revision name="1.1.2.6" status="release" pubdate="20160602231933" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+			<revision name="1.1.2.6" status="release" pubdate="20160602231933" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3450" time="0" location="/home/knoldus/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.1.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.pom"/>
 				<caller organisation="default" name="kafka-assignment-1$sources" conf="compile-internal, compile, provided, optional" rev="1.1.2.6" rev-constraint-default="1.1.2.6" rev-constraint-dynamic="1.1.2.6" callerrev="0.1"/>
