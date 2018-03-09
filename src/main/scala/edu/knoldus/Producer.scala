@@ -15,7 +15,7 @@ package edu.knoldus
     val producer = new KafkaProducer[String,Student](property)
     val student = List("Bhawna")
     for(id <-0 to student.size-1) {
-      val record = new ProducerRecord[String, Student](topic,id.toString,Student(id,student(id)))
+      val record = new ProducerRecord[String, Student](topic,"key",Student(id,student(id)))
       producer.send(record)
     }
      println("message has been written")

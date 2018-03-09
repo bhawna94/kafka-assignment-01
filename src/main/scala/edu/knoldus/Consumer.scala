@@ -22,7 +22,7 @@ object Consumer extends App {
   while(true) {
     val records = consumer.poll(50)
     for(record: ConsumerRecord[String, Student] <- records.asScala)
-      println(record)
+      println(record.value())
   }
 
 

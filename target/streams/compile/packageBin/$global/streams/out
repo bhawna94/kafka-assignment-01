@@ -1,1 +1,27 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /home/knoldus/kafka-assignment-1/target/scala-2.12/kafka-assignment-1_2.12-0.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/knoldus/kafka-assignment-1/target/scala-2.12/kafka-assignment-1_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/knoldus/Producer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/kafka-assignment-1/target/scala-2.12/classes/edu/knoldus/Producer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Consumer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/kafka-assignment-1/target/scala-2.12/classes/Consumer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/knoldus/Producer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/kafka-assignment-1/target/scala-2.12/classes/edu/knoldus/Producer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/knoldus/Producer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/kafka-assignment-1/target/scala-2.12/classes/edu/knoldus/Producer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/knoldus[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/kafka-assignment-1/target/scala-2.12/classes/edu/knoldus[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/kafka-assignment-1/target/scala-2.12/classes/edu[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/knoldus/Student$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/kafka-assignment-1/target/scala-2.12/classes/edu/knoldus/Student$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Consumer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/kafka-assignment-1/target/scala-2.12/classes/Consumer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Consumer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/kafka-assignment-1/target/scala-2.12/classes/Consumer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/knoldus/StudentSerializer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/kafka-assignment-1/target/scala-2.12/classes/edu/knoldus/StudentSerializer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/knoldus/Student.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/kafka-assignment-1/target/scala-2.12/classes/edu/knoldus/Student.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentDeserializer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/knoldus/kafka-assignment-1/target/scala-2.12/classes/StudentDeserializer.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
